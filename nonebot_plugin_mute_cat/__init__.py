@@ -1,5 +1,5 @@
 """
-nonebot-plugin-mute-cat — The Berrterest Mute Cat 🐱
+nonebot-plugin-mute-cat — The Betterest Mute Cat 🐱
 
 功能强大的 QQ 群禁言插件，支持定时禁言、全员禁言、解禁全员、禁我等功能，
 带有可爱的猫娘语气回复。
@@ -57,10 +57,10 @@ from .utils import (  # noqa: E402
 
 # ==================== 插件元数据 ====================
 __plugin_meta__ = PluginMetadata(
-    name="The Berrterest Mute Cat",
+    name="The Betterest Mute Cat",
     description="极致的禁言猫猫 — 功能强大的 QQ 群禁言插件，支持定时禁言、全员禁言、解禁全员、禁我等功能",
     usage=(
-        "📖 The Berrterest Mute Cat 来教你用禁言功能喵~\n"
+        "📖 The Betterest Mute Cat 来教你用禁言功能喵~\n"
         "═══════════════════\n"
         "▎禁言别人\n"
         "  禁言 @猫猫 [时长]\n"
@@ -110,7 +110,7 @@ async def _load_data() -> None:
     _cleanup_expired_mutes()
     _cleanup_orphan_tasks()
     logger.opt(colors=True).success(
-        f"<green>🐱 The Berrterest Mute Cat 加载完成</green> | "
+        f"<green>🐱 The Betterest Mute Cat 加载完成</green> | "
         f"群状态: {len(group_states)} | @ 覆盖: {len(at_overrides)}"
     )
 
@@ -692,7 +692,7 @@ async def handle_mute(bot: Bot, event: GroupMessageEvent, matcher: Matcher) -> N
             else "不需要 @ 人家"
         )
         await matcher.finish(
-            "📖 The Berrterest Mute Cat 来教你用禁言功能喵~\n"
+            "📖 The Betterest Mute Cat 来教你用禁言功能喵~\n"
             "═══════════════════\n"
             f"📌 当前模式：{at_status}\n\n"
             "▎@ 开关（必须 @ 人家）\n"
@@ -803,7 +803,7 @@ async def _handle_status(bot: Bot, matcher: Matcher, group_id: int) -> None:
     )
 
     msg = Message()
-    msg += "The Berrterest Mute Cat 群状态喵~\n═══════════════════\n"
+    msg += "The Betterest Mute Cat 群状态喵~\n═══════════════════\n"
     msg += f"📌 触发模式：{at_status}\n"
 
     wm = state["whole_mute"]

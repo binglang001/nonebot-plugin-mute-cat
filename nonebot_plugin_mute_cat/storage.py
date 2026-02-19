@@ -1,4 +1,4 @@
-"""持久化存储模块（基于 nonebot-plugin-localstore）— The Berrterest Mute Cat"""
+"""持久化存储模块（基于 nonebot-plugin-localstore）— The Betterest Mute Cat"""
 
 from __future__ import annotations
 

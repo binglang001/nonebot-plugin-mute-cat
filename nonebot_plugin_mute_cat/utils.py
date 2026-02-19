@@ -1,4 +1,4 @@
-"""工具函数模块 — The Berrterest Mute Cat"""
+"""工具函数模块 — The Betterest Mute Cat"""
 
 from __future__ import annotations
 

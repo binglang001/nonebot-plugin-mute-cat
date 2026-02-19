@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🐱 The Berrterest Mute Cat
+# 🐱 The Betterest Mute Cat
 
 ✨ 功能强大的 QQ 群禁言插件，带有可爱的猫娘语气 ✨
 
@@ -17,7 +17,7 @@
 
 ## 📖 介绍
 
-**The Berrterest Mute Cat** 是一个功能完善的 QQ 群禁言插件，支持多种禁言方式，带有可爱的猫娘语气回复，附有持久化存储和定时任务功能。
+**The Betterest Mute Cat** 是一个功能完善的 QQ 群禁言插件，支持多种禁言方式，带有可爱的猫娘语气回复，附有持久化存储和定时任务功能。
 
 ### ✨ 特性
 

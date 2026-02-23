@@ -1,6 +1,4 @@
 from pydantic import BaseModel, Field
-from nonebot.compat import ConfigDict
-
 
 class Config(BaseModel):
     """禁言猫猫插件配置"""

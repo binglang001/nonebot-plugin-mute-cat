@@ -5,8 +5,6 @@ from nonebot.compat import ConfigDict
 class Config(BaseModel):
     """禁言猫猫插件配置"""
 
-    model_config = ConfigDict(extra="ignore")
-
     mute_default_minutes: int = Field(default=5, description="默认禁言时长（分钟）")
     mute_self_options: list[int] = Field(
         default=[1, 3, 5, 0],

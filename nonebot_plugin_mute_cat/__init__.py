@@ -86,7 +86,7 @@ __plugin_meta__ = PluginMetadata(
     supported_adapters={"~onebot.v11"},
     extra={
         "author": "binglang",
-        "version": "1.2.2",
+        "version": "1.2.3",
     },
 )
 

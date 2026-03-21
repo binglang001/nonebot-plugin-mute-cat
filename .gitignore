@@ -1,21 +1,34 @@
-# Python
+# Python bytecode and extensions
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Virtual environments and local Python config
 .Python
-
-# Virtual environments
-env/
-venv/
+.python-version
 .venv/
+venv/
+env/
 ENV/
+env.bak/
+venv.bak/
 
-# Distribution / packaging
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Build, packaging, and pip artifacts
 build/
-develop-eggs/
 dist/
+site/
 downloads/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+develop-eggs/
 eggs/
 .eggs/
 lib/
@@ -23,36 +36,70 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
+*.whl
+.installed.cfg
 MANIFEST
 
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Testing
-htmlcov/
-.tox/
-.nox/
+# Test, coverage, lint, and type-check caches
+.cache/
 .coverage
 .coverage.*
-.cache
-nosetests.xml
+.hypothesis/
+.mypy_cache/
+.nox/
+.pyre/
+.pytest_cache/
+.pytype/
+.ruff_cache/
+.tox/
+htmlcov/
 coverage.xml
+nosetests.xml
+pytestdebug.log
 *.cover
 *.py,cover
-.hypothesis/
-.pytest_cache/
 
-# Data files (runtime)
+# Runtime data and local state
 data/
+logs/
+log/
+temp/
+tmp/
+runtime/
+state/
+localstore/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
 
-# IDE
-.vscode/
+# IDE and editor files
 .idea/
+.vscode/
+*.code-workspace
+*.suo
+*.user
+*.userossc
 *.swp
 *.swo
 *~
+
+# OS and patch leftovers
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+
+# Local repository backups
+.git.source-backup/
